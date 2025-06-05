@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Me - Sonam Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      background-color: rgb(0, 0, 33);
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0 20px;
+    }
+    nav {
+      background-color: rgb(15, 15, 85);
+      padding: 15px 20px;
+      display: flex;
+      justify-content: center;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+      padding: 0;
+      margin: 0;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+    nav ul li a:hover {
+      color: rgb(135, 135, 211);
+    }
+    h1 {
+      margin-top: 40px;
+      font-size: 2.2rem;
+      text-align: center;
+    }
+    .contact-container {
+      max-width: 600px;
+      margin: 40px auto;
+      background-color: rgb(15, 15, 85);
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgb(50, 50, 100);
+    }
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: 600;
+      color: #ccc;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: none;
+      border-radius: 4px;
+      font-size: 1rem;
+    }
+    input:focus, textarea:focus {
+      outline: 2px solid rgb(135, 135, 211);
+      background-color: #1a1a50;
+      color: white;
+    }
+    button {
+      background-color: #6a5acd;
+      border: none;
+      padding: 12px 25px;
+      font-size: 1.1rem;
+      color: white;
+      cursor: pointer;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #574bc8;
+    }
+    .contact-info {
+      margin-top: 30px;
+      font-size: 1rem;
+      color: #bbb;
+    }
+    .contact-info strong {
+      color: #9c97f1;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="Home.html">Home</a></li>
+      <li><a href="About.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="Project.html">Projects</a></li>
+      <li><a href="contact.html">Contact me</a></li>
+    </ul>
+  </nav>
+
+  <h1>Contact Me</h1>
+
+  <div class="contact-container">
+    <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your full name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Your email address" required />
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="contact-info">
+      <p><strong>Email:</strong> singhsonam1319@gmail.com</p>
+      <p><strong>Phone:</strong> +91 9113321662</p>
+      <p><strong>Location:</strong> Bhopal, India</p>
+    </div>
+  </div>
+</body>
+</html>

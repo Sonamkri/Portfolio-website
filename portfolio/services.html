@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Services - Sonam Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      background-color: rgb(0, 0, 33);
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0 20px;
+    }
+    nav {
+      background-color: rgb(15, 15, 85);
+      padding: 15px 20px;
+      display: flex;
+      justify-content: center;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+      padding: 0;
+      margin: 0;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+    nav ul li a:hover {
+      color: rgb(135, 135, 211);
+    }
+    h1 {
+      margin-top: 40px;
+      font-size: 2.2rem;
+      text-align: center;
+    }
+    .services-container {
+      max-width: 900px;
+      margin: 40px auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+    .service-box {
+      background-color: rgb(15, 15, 85);
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgb(50, 50, 100);
+      transition: background-color 0.3s ease;
+    }
+    .service-box:hover {
+      background-color: rgb(30, 30, 110);
+    }
+    .service-title {
+      font-size: 1.4rem;
+      margin-bottom: 12px;
+      color: #9c97f1;
+    }
+    .service-desc {
+      font-size: 1rem;
+      color: #ccc;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="Home.html">Home</a></li>
+      <li><a href="About.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact me</a></li>
+    </ul>
+  </nav>
+
+  <h1>My Services</h1>
+
+  <div class="services-container">
+    <div class="service-box">
+      <div class="service-title">Web Development</div>
+      <div class="service-desc">Building responsive, user-friendly websites with HTML, CSS, JavaScript, and ReactJS.</div>
+    </div>
+    <div class="service-box">
+      <div class="service-title">UI/UX Design</div>
+      <div class="service-desc">Creating visually appealing and intuitive interfaces to enhance user experience.</div>
+    </div>
+    <div class="service-box">
+      <div class="service-title">Java Programming</div>
+      <div class="service-desc">Developing robust, object-oriented Java applications for different platforms.</div>
+    </div>
+    <div class="service-box">
+      <div class="service-title">Database Management</div>
+      <div class="service-desc">Designing and managing efficient databases using MySQL for seamless data handling.</div>
+    </div>
+  </div>
+</body>
+</html>
