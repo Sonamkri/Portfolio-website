@@ -5,7 +5,7 @@ Welcome to my personal developer portfolio website! This project showcases my sk
 
 ## 🌐 Live Preview
 
-http://127.0.0.1:5500/index.html
+https://deft-tiramisu-3e5b4c.netlify.app/
 
 ## 🚀 Features
 
