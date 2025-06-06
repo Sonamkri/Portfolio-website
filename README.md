@@ -5,7 +5,7 @@ Welcome to my personal developer portfolio website! This project showcases my sk
 
 ## 🌐 Live Preview
 
-https://deft-tiramisu-3e5b4c.netlify.app/
+https://sonamporfolio.netlify.app/
 
 ## 🚀 Features
 
